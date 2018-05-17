@@ -9,8 +9,7 @@
 defmodule PlateSlateWeb.Schema do
   use Absinthe.Schema
 
-  alias PlateSlate.{Menu, Repo}
-  import Ecto.Query
+  alias PlateSlateWeb.Resolvers
 
   query do
 
