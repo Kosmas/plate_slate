@@ -34,7 +34,7 @@ defmodule PlateSlateWeb.Schema do
     
     field :create_menu_item, :menu_item do
       arg :input, non_null(:menu_item_input)
-      resolve &Resolvers.Neu.create_item/3
+      resolve &Resolvers.Menu.create_item/3
     end
   end
 
